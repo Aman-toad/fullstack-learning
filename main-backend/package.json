@@ -1,0 +1,12 @@
+{
+  "name": "main-backend",
+  "version": "1.0.0",
+  "description": "the main backend start from here",
+  "license": "ISC",
+  "author": "aman",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
