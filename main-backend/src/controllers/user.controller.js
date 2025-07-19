@@ -3,8 +3,7 @@ import { ApiError } from '../utils/ApiError.js'
 import { User } from '../models/user.model.js'
 import { deleteFromCloudinary, uploadOnCloudinary } from '../utils/cloudinary.js'
 import { ApiResponse } from '../utils/ApiResponst.js';
-import { jwt } from JsonWebTokenError
-
+import jwt from 'jsonwebtoken'
 const generateAccessAndRefreshTokens = async (userId) => {
   try {
     const user = await User.findById(userId);
